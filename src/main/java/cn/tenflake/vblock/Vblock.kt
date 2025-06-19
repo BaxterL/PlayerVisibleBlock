@@ -10,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class Vblock : JavaPlugin(), Listener, CommandExecutor {
     override fun onEnable() {
         val protocol = ProtocolLibrary.getProtocolManager()
-        this.getCommand("visible").executor = Visible()
+        this.getCommand("visibleblock").executor = Visible()
         this.getCommand("visibleblocks").executor = Visible()
         this.getCommand("savedata").executor = SavePlayerData()
     }

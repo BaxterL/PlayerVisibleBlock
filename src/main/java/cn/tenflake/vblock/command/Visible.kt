@@ -21,7 +21,7 @@ class Visible: CommandExecutor {
     override fun onCommand(sender: CommandSender?, command: Command?, p2: String?, args: Array<out String?>?): Boolean {
         if (args == null || sender == null) return false
         when (command?.name?.lowercase()) {
-            "visible" -> handleblock(sender, args)
+            "visibleblock" -> handleblock(sender, args)
             "visibleblocks" -> handleblocks(sender, args)
             else -> sender.sendMessage("error")
         }

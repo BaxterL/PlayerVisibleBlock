@@ -6,7 +6,7 @@ commands:
   visible:
     description: 通过发包控制方块是否可见
     permission: vblock.op
-    usage: /visible x y z Block player true/false[false为空气]
+    usage: /visibleblock x y z Block player true/false[false为空气]
   visibleblocks:
     description: 多个
     permission: vblock.op
