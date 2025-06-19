@@ -1,4 +1,4 @@
-name: vblock
+name: visible_block
 version: '1.0-a'
 main: cn.tenflake.vblock.Vblock
 
@@ -6,7 +6,7 @@ commands:
   visible:
     description: 通过发包控制方块是否可见
     permission: vblock.op
-    usage: /visible x y z Block player true/false
+    usage: /visibleblock x y z Block player true/false[false为空气]
   visibleblocks:
     description: 多个
     permission: vblock.op
@@ -14,7 +14,7 @@ commands:
   savedata:
     description: eee save all player data
     permission: vblock.op
-    usage: 111
+    usage: 辅助用的存储所有玩家信息
 
 depend:
   - ProtocolLib
